@@ -6,7 +6,7 @@ from agno.tools.youtube import YouTubeTools
 
 load_dotenv()
 
-def build_youtube_agent():6
+def build_youtube_agent():
     return Agent(
         name="YouTube Agent",
         model=OpenAIResponses(id="gpt-5.2"),
